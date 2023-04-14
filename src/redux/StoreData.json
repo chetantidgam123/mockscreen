@@ -1,0 +1,16 @@
+{
+    "category":[
+            {
+            "Name":"cycling",
+            "icon":"fa-solid fa-person-biking"
+            },
+            {
+            "Name":"Swimming",
+            "icon":"fa-solid fa-person-swimming"
+            },
+            {
+            "Name":"Archary",
+            "icon":"fa-sharp fa-solid fa-bullseye-arrow"
+            }
+    ]
+}
