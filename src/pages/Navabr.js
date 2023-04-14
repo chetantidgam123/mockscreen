@@ -1,32 +1,41 @@
 import React, { useState } from 'react'
 import Navitems from '../components/Navitems'
 import { Box } from '@chakra-ui/react'
-import { useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
+import { useEffect } from 'react'
 import Category from '../components/Category'
-
-const subData = {
-  "cycling": ["BMX", "MOUNTAIN", "ROAD"],
-  "armoury": ["aman", "aman", "aman"],
-  "athletics": ["chetan", "chetan", "chetan"],
-}
+import Images from '../components/Images'
 
 const Navabr = () => {
-  const [navbar, setNavbar] = useState(subData)
   const [category, setCategory] = useState("")
+  const [image, setimage] = useState("")
+  const dispatch = useDispatch()
+  const state = useSelector((state) => state.middle)
   const checkSubCategory = (x) => {
     setCategory(x)
+    dispatch({ type: x })
   }
+  const checkImage = (x) => {
+    setimage(x)
+    dispatch({ type: x })
+  }
+
+  useEffect(() => {
+    dispatch({ type: 'cycling' })
+    dispatch({ type: 'box' })
+  }, [])
   return (
 
     <>
-      <Box display={'flex'}>
-        <Box >
-          <Navitems checkSubCategory={checkSubCategory} />
-        </Box>
+      <Box display={'flex'} justifyContent={'space-between'} >
+        <Navitems checkSubCategory={checkSubCategory} />
       </Box>
-      {
-        category === "cycling" ? (<><Category category={navbar.cycling} /></>) : category === "armoury" ? (<><Category category={navbar.armoury} /></>) : (<><Category category={navbar.athletics} /></>)
-      }
+      <Box>
+        <Category checkImage={checkImage} />
+      </Box>
+      <Box>
+        <Images />
+      </Box>
 
     </>
   )

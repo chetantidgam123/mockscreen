@@ -1,10 +1,9 @@
+import { Box, Image } from '@chakra-ui/react';
 import React, { useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { CYCLING_BMX, CYCLING_MOUNTAIN, CYCLING_ROAD } from '../redux/actiontype'
-import { Box } from '@chakra-ui/react'
+import { useSelector } from 'react-redux';
 
-const Category = ({ checkImage }) => {
-    const state = useSelector((state) => state.middle)
+const Images = () => {
+    const state = useSelector((state) => state.last)
     useEffect(() => {
         console.log(state);
     }, [state])
@@ -15,7 +14,7 @@ const Category = ({ checkImage }) => {
                 state?.map((ele, i) => (
                     <Box key={i} >
                         {
-                            <Box onClick={() => { checkImage(ele) }}>{ele}</Box>
+                            <Image src={ele.image} />
                         }
 
                     </Box>
@@ -25,4 +24,4 @@ const Category = ({ checkImage }) => {
     )
 }
 
-export default Category
+export default Images

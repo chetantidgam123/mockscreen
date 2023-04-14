@@ -1,13 +1,19 @@
-import React, { useState } from 'react'
+import { Box } from '@chakra-ui/react'
+import React, { useEffect, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 
 const Navitems = ({ checkSubCategory }) => {
-  const [data, setData] = useState(["cycling", "armoury", "athelics"])
+  const dispatch = useDispatch()
+  const state = useSelector((state) => state.data)
+  useEffect(() => {
+    dispatch({ type: 'navItems' })
+  }, [])
   return (
     <>
       {
-        data?.map((e, indx) => (
-
-          <div key={indx} onClick={() => checkSubCategory(e)}>{e} <i class="fa-solid fa-person-swimming"></i></div>
+        state?.map((e, indx) => (
+          <div key={indx} onClick={() => checkSubCategory(e.Name)}>{e.Name
+          } <i className={e.icon}></i></div>
         ))
       }
     </>

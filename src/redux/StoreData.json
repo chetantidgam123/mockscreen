@@ -1,16 +1,107 @@
 {
-    "category":[
+    "category": [
+        {
+            "Name": "cycling",
+            "icon": "fa-solid fa-person-biking"
+        },
+        {
+            "Name": "Swimming",
+            "icon": "fa-solid fa-person-swimming"
+        },
+        {
+            "Name": "Archary",
+            "icon": "fa-solid fa-crosshairs"
+        }
+    ],
+    "cyclingMenu": [
+        "Box",
+        "ground",
+        "Mountain"
+    ],
+    "swimmingMenu": [
+        "plain",
+        "salty",
+        "sweet"
+    ],
+    "archaryMenu": [
+        "hand",
+        "leg",
+        "other"
+    ],
+    "cyclingImages": {
+        "mountain": [
             {
-            "Name":"cycling",
-            "icon":"fa-solid fa-person-biking"
+                "image": "https://www.storckworld.com/fileadmin/_processed_/7/d/csm_storck-leidenschaft_1ea011de56.jpg",
+                "name": "cheran"
             },
             {
-            "Name":"Swimming",
-            "icon":"fa-solid fa-person-swimming"
+                "image": "https://www.storckworld.com/fileadmin/_processed_/7/d/csm_storck-leidenschaft_1ea011de56.jpg",
+                "name": "cheran"
             },
             {
-            "Name":"Archary",
-            "icon":"fa-sharp fa-solid fa-bullseye-arrow"
+                "image": "https://www.storckworld.com/fileadmin/_processed_/7/d/csm_storck-leidenschaft_1ea011de56.jpg",
+                "name": "cheran"
+            },
+            {
+                "image": "https://www.storckworld.com/fileadmin/_processed_/7/d/csm_storck-leidenschaft_1ea011de56.jpg",
+                "name": "cheran"
             }
+        ],
+        "box": [
+            {
+                "image": "https://content.presspage.com/uploads/1660/1920_martabastianelliwinsstageoneinbanburyswpix-3.jpg?10000g",
+                "name": "cheran"
+            },
+            {
+                "image": "https://content.presspage.com/uploads/1660/1920_martabastianelliwinsstageoneinbanburyswpix-3.jpg?10000g",
+                "name": "cheran"
+            },
+            {
+                "image": "https://content.presspage.com/uploads/1660/1920_martabastianelliwinsstageoneinbanburyswpix-3.jpg?10000g",
+                "name": "cheran"
+            },
+            {
+                "image": "https://content.presspage.com/uploads/1660/1920_martabastianelliwinsstageoneinbanburyswpix-3.jpg?10000g",
+                "name": "cheran"
+            }
+        ]
+    },
+    "swimmingImages": {
+        "salty": [
+            {
+                "image": "https://media.istockphoto.com/id/523897701/photo/butterfly-stroke-swimming.jpg?s=612x612&w=0&k=20&c=IvZQMHUTjEVdlGgZOwKxL5xKa5yERgUgsexOgKgJgg0=",
+                "name": "cheran"
+            },
+            {
+                "image": "https://media.istockphoto.com/id/523897701/photo/butterfly-stroke-swimming.jpg?s=612x612&w=0&k=20&c=IvZQMHUTjEVdlGgZOwKxL5xKa5yERgUgsexOgKgJgg0=",
+                "name": "cheran"
+            },
+            {
+                "image": "https://media.istockphoto.com/id/523897701/photo/butterfly-stroke-swimming.jpg?s=612x612&w=0&k=20&c=IvZQMHUTjEVdlGgZOwKxL5xKa5yERgUgsexOgKgJgg0=",
+                "name": "cheran"
+            },
+            {
+                "image": "https://media.istockphoto.com/id/523897701/photo/butterfly-stroke-swimming.jpg?s=612x612&w=0&k=20&c=IvZQMHUTjEVdlGgZOwKxL5xKa5yERgUgsexOgKgJgg0=",
+                "name": "cheran"
+            }
+        ]
+    },
+    "archaryImages": [
+        {
+            "image": "https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80",
+            "name": "cheran"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80",
+            "name": "cheran"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80",
+            "name": "cheran"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80",
+            "name": "cheran"
+        }
     ]
 }
