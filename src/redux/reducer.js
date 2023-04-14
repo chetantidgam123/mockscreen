@@ -5,7 +5,6 @@ const intialState = {
     last: []
 }
 export const reducer = (state = intialState, action) => {
-    console.log('actionType', action.type);
     switch (action.type) {
         case "navItems": {
             return {
@@ -37,10 +36,16 @@ export const reducer = (state = intialState, action) => {
                 last: data1.cyclingImages.box
             }
         }
-        case "mountain": {
+        case "Mountain": {
             return {
                 ...state,
                 last: data1.cyclingImages.mountain
+            }
+        }
+        case "salty": {
+            return {
+                ...state,
+                last: data1.swimmingImages.salty
             }
         }
         default:

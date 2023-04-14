@@ -27,10 +27,10 @@ const Navabr = () => {
   return (
 
     <>
-      <Box display={'flex'} justifyContent={'space-between'} >
+      <Box display={'flex'} justifyContent={'space-around'} >
         <Navitems checkSubCategory={checkSubCategory} />
       </Box>
-      <Box>
+      <Box my={3}>
         <Category checkImage={checkImage} />
       </Box>
       <Box>

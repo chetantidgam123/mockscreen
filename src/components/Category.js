@@ -6,11 +6,10 @@ import { Box } from '@chakra-ui/react'
 const Category = ({ checkImage }) => {
     const state = useSelector((state) => state.middle)
     useEffect(() => {
-        console.log(state);
     }, [state])
 
     return (
-        <div style={{ width: "100%", display: "flex", justifyContent: "space-between" }}>
+        <div style={{ width: "100%", display: "flex", justifyContent: "space-around" }}>
             {
                 state?.map((ele, i) => (
                     <Box key={i} >
