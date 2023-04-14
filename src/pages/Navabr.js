@@ -18,19 +18,39 @@ const Navabr = () => {
   const checkImage = (x) => {
     setimage(x)
     dispatch({ type: x })
+ 
   }
 
   useEffect(() => {
-    dispatch({ type: 'cycling' })
-    dispatch({ type: 'box' })
-  }, [])
+    if(category=='cycling'){
+      dispatch({ type: 'BMX' })
+    }
+    else if(category=='Swimming'){
+      dispatch({ type: 'Freestyle' })
+    }
+    else if(category=='Archary'){
+      dispatch({ type: 'Freestyle' })
+    }
+    else if(category=='Equestrian'){
+      dispatch({ type: 'Freestyle' })
+    }
+    else if(category=='Extreme'){
+      dispatch({ type: 'Freestyle' })
+    }
+    else if(category=='Golf'){
+      dispatch({ type: 'Freestyle' })
+    }
+    else if(category=='Gym'){
+      dispatch({ type: 'Freestyle' })
+    }
+  }, [category])
   return (
 
     <>
       <Box display={'flex'} justifyContent={'space-around'} >
         <Navitems checkSubCategory={checkSubCategory} />
       </Box>
-      <Box my={3}>
+      <Box my={3} width={'50%'} mx={'auto'}>
         <Category checkImage={checkImage} />
       </Box>
       <Box>

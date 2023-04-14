@@ -11,83 +11,149 @@
         {
             "Name": "Archary",
             "icon": "fa-solid fa-crosshairs"
+        },
+        {
+            "Name": "Equestrian",
+            "icon": "fa-solid fa-horse"
+        },
+        {
+            "Name": "Extreme",
+            "icon": "fa-solid fa-person-hiking"
+            
+        },
+        {
+            "Name": "Golf",
+            "icon": "fa-solid fa-golf-ball-tee"
+        },
+        {
+            "Name": "Gym",
+            "icon": "fa-solid fa-dumbbell"
         }
     ],
     "cyclingMenu": [
-        "Box",
-        "ground",
-        "Mountain"
+        "BMX",
+        "Road",
+        "Mountain",
+        "Track"
     ],
     "swimmingMenu": [
-        "plain",
-        "salty",
-        "sweet"
+        "Freestyle",
+        "Backstroke",
+        "Butterfly",
+        "Medley"
     ],
     "archaryMenu": [
-        "hand",
-        "leg",
-        "other"
+        "Rifal",
+        "Pistol",
+        "Shotgun"
+    ],
+    "equestrian": [
+        "Dressage",
+        "Eventing",
+        "Show-jumping"
+    ],
+    "extreme": [
+        "Day Hiking",
+        "Summit Hiking",
+        "Long-Distance Hiking"
+    ],
+    "gym": [
+        "Biceps Workout",
+        "Chest Workout",
+        "Legs Workout"
+    ],
+    "golf": [
+        "Match Play",
+        "Stroke Play"
     ],
     "cyclingImages": {
         "mountain": [
             {
-                "image": "https://www.storckworld.com/fileadmin/_processed_/7/d/csm_storck-leidenschaft_1ea011de56.jpg",
+                "image": "https://c8.alamy.com/comp/AEXGXG/mountain-bikers-cycling-on-the-narrow-path-during-the-mtb-training-AEXGXG.jpg",
                 "name": "cheran"
             },
             {
-                "image": "https://www.storckworld.com/fileadmin/_processed_/7/d/csm_storck-leidenschaft_1ea011de56.jpg",
+                "image": "https://d19j0qt0x55bap.cloudfront.net/production/startups/60763d797eb65b666307291d/founders/images/profile_image/founder_jeffwhite.jpg",
                 "name": "cheran"
             },
             {
-                "image": "https://www.storckworld.com/fileadmin/_processed_/7/d/csm_storck-leidenschaft_1ea011de56.jpg",
+                "image": "https://i.pinimg.com/originals/be/f4/2f/bef42f45c7540419c42d8c65716311b3.jpg",
                 "name": "cheran"
             },
             {
-                "image": "https://www.storckworld.com/fileadmin/_processed_/7/d/csm_storck-leidenschaft_1ea011de56.jpg",
+                "image": "https://ep1.pinkbike.org/p4pb15939174/p4pb15939174.jpg",
                 "name": "cheran"
             }
         ],
-        "box": [
+        "bmx": [
             {
-                "image": "https://content.presspage.com/uploads/1660/1920_martabastianelliwinsstageoneinbanburyswpix-3.jpg?10000g",
+                "image": "https://media.istockphoto.com/id/513902849/photo/bmx-rider.jpg?s=1024x1024&w=is&k=20&c=mTZyiMI8Idfuf1SJ2dCQkNaQOH4JglyiAbhM-PNvP5U=",
                 "name": "cheran"
             },
             {
-                "image": "https://content.presspage.com/uploads/1660/1920_martabastianelliwinsstageoneinbanburyswpix-3.jpg?10000g",
+                "image": "https://media.istockphoto.com/id/179299760/photo/mountain-biker.jpg?s=612x612&w=is&k=20&c=KVY8mYAEivrZMNrHMTz5YU93nxJze_Sem6jQfU43bc8=",
                 "name": "cheran"
             },
             {
-                "image": "https://content.presspage.com/uploads/1660/1920_martabastianelliwinsstageoneinbanburyswpix-3.jpg?10000g",
+                "image": "https://media.istockphoto.com/id/482648525/photo/bmx-rider.jpg?s=1024x1024&w=is&k=20&c=A3qbYnT2WZcQBYVSGIXD3-IjZ6yIHXUWnq9YKpHmt0g=",
                 "name": "cheran"
             },
             {
-                "image": "https://content.presspage.com/uploads/1660/1920_martabastianelliwinsstageoneinbanburyswpix-3.jpg?10000g",
+                "image": "https://media.istockphoto.com/id/95821198/photo/airtime.jpg?s=612x612&w=is&k=20&c=nA3rxw61mPXV68Bt6-bJrMGOywhvH-WSYHTGF_anvWc=",
+                "name": "cheran"
+            }
+        ],
+        "road": [
+            {
+                "image": "https://www.washingtonpost.com/wp-srv/special/sports/cycling/images/header-image-1.jpg",
+                "name": "cheran"
+            },
+            {
+                "image": "https://humancyclist.files.wordpress.com/2014/10/hill-7.jpg?w=358",
+                "name": "cheran"
+            },
+            {
+                "image": "https://dqh479dn9vg99.cloudfront.net/wp-content/uploads/sites/9/2015/12/07080609/cycling_in_the_winter.jpg",
+                "name": "cheran"
+            }
+        ],
+        "track": [
+            {
+                "image": "https://images.squarespace-cdn.com/content/v1/55031b5de4b0f19ab69d111a/1482946988360-YFLQ9YCNRT0CXLFO8IUN/track-cycling-lee-valley.jpg",
+                "name": "cheran"
+            },
+            {
+                "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/cycle-race-hulton-archive.jpg",
+                "name": "cheran"
+            },
+            {
+                "image": "https://c8.alamy.com/comp/WHB227/cycle-road-race-charpentier-france-first-through-finish-line-olympic-games-berlin-1936-WHB227.jpg",
                 "name": "cheran"
             }
         ]
     },
     "swimmingImages": {
-        "salty": [
+        "Freestyle": [
             {
-                "image": "https://media.istockphoto.com/id/523897701/photo/butterfly-stroke-swimming.jpg?s=612x612&w=0&k=20&c=IvZQMHUTjEVdlGgZOwKxL5xKa5yERgUgsexOgKgJgg0=",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqqADCggTi8qX-ZT_lzhpeurGWhQax-0sYIKqOZewOJOTG9QloMLjapSa7J781Gwb9pFd0N50lIDs&usqp=CAU&ec=48665701",
                 "name": "cheran"
             },
             {
-                "image": "https://media.istockphoto.com/id/523897701/photo/butterfly-stroke-swimming.jpg?s=612x612&w=0&k=20&c=IvZQMHUTjEVdlGgZOwKxL5xKa5yERgUgsexOgKgJgg0=",
+                "image": "https://swimswam.com/wp-content/uploads/2017/04/Katie-Ledecky-by-Mike-Lewis-7.jpg",
                 "name": "cheran"
             },
             {
-                "image": "https://media.istockphoto.com/id/523897701/photo/butterfly-stroke-swimming.jpg?s=612x612&w=0&k=20&c=IvZQMHUTjEVdlGgZOwKxL5xKa5yERgUgsexOgKgJgg0=",
+                "image": "https://owaves.com/wp-content/uploads/Katie-Ledecky-Swimming-Black-and-White.jpg",
                 "name": "cheran"
             },
             {
-                "image": "https://media.istockphoto.com/id/523897701/photo/butterfly-stroke-swimming.jpg?s=612x612&w=0&k=20&c=IvZQMHUTjEVdlGgZOwKxL5xKa5yERgUgsexOgKgJgg0=",
+                "image": "https://vmrw8k5h.tinifycdn.com/news/wp-content/uploads/2019/02/Janet-Evans-freestyle-1024x743.jpg",
                 "name": "cheran"
             }
         ]
     },
-    "archaryImages": [
-        {
+    "archaryImages": {
+       "Rifal":[ {
             "image": "https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80",
             "name": "cheran"
         },
@@ -104,4 +170,5 @@
             "name": "cheran"
         }
     ]
+}
 }

@@ -8,12 +8,12 @@ const Images = () => {
     }, [state])
 
     return (
-        <div style={{ width: "100%", display: "flex", justifyContent: "space-between" }}>
+        <div style={{ width: "100%", display: "flex", justifyContent: "space-around" }}>
             {
                 state?.map((ele, i) => (
                     <Box mx={1} key={i} >
                         {
-                            <Image src={ele.image} />
+                            <Image src={ele.image} width={'300px'} height={'450px'} />
                         }
 
                     </Box>

@@ -30,10 +30,34 @@ export const reducer = (state = intialState, action) => {
                 middle: data1.archaryMenu
             }
         }
-        case "box": {
+        case "Equestrian": {
             return {
                 ...state,
-                last: data1.cyclingImages.box
+                middle: data1.equestrian
+            }
+        }
+        case "Extreme": {
+            return {
+                ...state,
+                middle: data1.extreme
+            }
+        }
+        case "Golf": {
+            return {
+                ...state,
+                middle: data1.golf
+            }
+        }
+        case "Gym": {
+            return {
+                ...state,
+                middle: data1.gym
+            }
+        }
+        case "BMX": {
+            return {
+                ...state,
+                last: data1.cyclingImages.bmx
             }
         }
         case "Mountain": {
@@ -42,10 +66,22 @@ export const reducer = (state = intialState, action) => {
                 last: data1.cyclingImages.mountain
             }
         }
-        case "salty": {
+        case "Road": {
             return {
                 ...state,
-                last: data1.swimmingImages.salty
+                last: data1.cyclingImages.road
+            }
+        }
+        case "Track": {
+            return {
+                ...state,
+                last: data1.cyclingImages.track
+            }
+        }
+        case "Freestyle": {
+            return {
+                ...state,
+                last: data1.swimmingImages.Freestyle
             }
         }
         default:
