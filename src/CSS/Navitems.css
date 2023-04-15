@@ -1,4 +1,4 @@
-.navItems{
+.navItems {
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -10,4 +10,16 @@
     gap: 5px;
     color: white;
     background-color: rgb(59 59 59);
+}
+
+.shadow {
+    display: flex;
+    width: 100%;
+    background-color: red;
+    height: 60px;
+    position: relative;
+    bottom: 59px;
+    background: #2221216e;
+    text-align: center;
+    align-items: center;
 }
