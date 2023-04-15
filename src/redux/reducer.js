@@ -84,6 +84,108 @@ export const reducer = (state = intialState, action) => {
                 last: data1.swimmingImages.Freestyle
             }
         }
+        case "Backstroke": {
+            return {
+                ...state,
+                last: data1.swimmingImages.Backstroke
+            }
+        }
+        case "Butterfly": {
+            return {
+                ...state,
+                last: data1.swimmingImages.Butterfly
+            }
+        }
+        case "Medley": {
+            return {
+                ...state,
+                last: data1.swimmingImages.Medley
+            }
+        }
+        case "Rifal": {
+            return {
+                ...state,
+                last: data1.archaryImages.Rifal
+            }
+        }
+        case "Pistol": {
+            return {
+                ...state,
+                last: data1.archaryImages.Pistol
+            }
+        }
+        case "Show-jumping": {
+            return {
+                ...state,
+                last: data1.equastrainImages.Show_jumping
+            }
+        }
+        case "Eventing": {
+            return {
+                ...state,
+                last: data1.equastrainImages.Eventing
+            }
+        }
+        case "Dressage": {
+            return {
+                ...state,
+                last: data1.equastrainImages.Dressage
+            }
+        }
+        case "Day Hiking": {
+            return {
+                ...state,
+                last: data1.extremeImages.Day_Hiking
+            }
+        }
+        case "Summit Hiking": {
+            return {
+                ...state,
+                last: data1.extremeImages.Summit_Hiking
+            }
+        }
+        case "Long-Distance Hiking": {
+            return {
+                ...state,
+                last: data1.extremeImages.Long_Distance_Hiking
+            }
+        }
+        case "Biceps Workout": {
+            return {
+                ...state,
+                last: data1.gymImages.Biceps_Workout
+            }
+        }
+        case "Chest Workout": {
+            return {
+                ...state,
+                last: data1.gymImages.Chest_Workout
+            }
+        }
+        case "Legs Workout": {
+            return {
+                ...state,
+                last: data1.gymImages.Legs_Workout
+            }
+        }
+        case "Match Play": {
+            return {
+                ...state,
+                last: data1.golfImages.Match_Play
+            }
+        }
+        case "Stroke Play": {
+            return {
+                ...state,
+                last: data1.golfImages.Stroke_Play
+            }
+        }
+        case "Shotgun": {
+            return {
+                ...state,
+                last: data1.archaryImages.Shotgun
+            }
+        }
         default:
             return state;
     }

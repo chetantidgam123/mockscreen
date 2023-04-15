@@ -20,6 +20,10 @@ const Navabr = () => {
     dispatch({ type: x })
  
   }
+  useEffect(()=>{
+    dispatch({ type: 'cycling' })
+    dispatch({ type: 'BMX' })
+  },[])
 
   useEffect(() => {
     if(category=='cycling'){
@@ -29,19 +33,19 @@ const Navabr = () => {
       dispatch({ type: 'Freestyle' })
     }
     else if(category=='Archary'){
-      dispatch({ type: 'Freestyle' })
+      dispatch({ type: 'Rifal' })
     }
     else if(category=='Equestrian'){
-      dispatch({ type: 'Freestyle' })
+      dispatch({ type: 'Dressage' })
     }
     else if(category=='Extreme'){
-      dispatch({ type: 'Freestyle' })
+      dispatch({ type: 'Day Hiking' })
     }
     else if(category=='Golf'){
-      dispatch({ type: 'Freestyle' })
+      dispatch({ type: 'Match Play' })
     }
     else if(category=='Gym'){
-      dispatch({ type: 'Freestyle' })
+      dispatch({ type: 'Biceps Workout' })
     }
   }, [category])
   return (

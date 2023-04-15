@@ -150,23 +150,216 @@
                 "image": "https://vmrw8k5h.tinifycdn.com/news/wp-content/uploads/2019/02/Janet-Evans-freestyle-1024x743.jpg",
                 "name": "cheran"
             }
+        ],
+        "Backstroke": [
+            {
+                "image": "https://st2.depositphotos.com/6644020/11517/i/950/depositphotos_115179130-stock-photo-female-swimmer-performing-backstroke-swimming.jpg",
+                "name": "cheran"
+            },
+            {
+                "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Bundesarchiv_Bild_183-G0413-0015-001%2C_Roland_Matthes.jpg",
+                "name": "cheran"
+            },
+            {
+                "image": "https://i0.wp.com/www.swimmingworldmagazine.com/news/wp-content/uploads/2019/12/rolandmatthes-scaled.jpg?fit=2560%2C1730&ssl=1",
+                "name": "cheran"
+            }
+        ],
+        "Butterfly": [
+            {
+                "image": "https://c8.alamy.com/zooms/9/b1f0492a4fd74863b0274d3da19ae1db/wtm1aj.jpg",
+                "name": "cheran"
+            },
+            {
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFJkFugg_r-NdJNB6xYAemonOXcw1pmjaEsWxFeTenL4arv4Aff-ONFK8OCcYjJ4C0NOCUUb8TwE0&usqp=CAU&ec=48665701",
+                "name": "cheran"
+            }
+        ],
+        "Medley": [
+            {
+                "image": "https://www.shutterstock.com/image-photo/two-swimmers-swimming-poolunderwater-imagegrain-260nw-252099832.jpg",
+                "name": "cheran"
+            },
+            {
+                "image": "https://www.fubiz.net/wp-content/uploads/2015/08/Fran%C3%A7oisXavierMarit-900x600.jpg",
+                "name": "cheran"
+            }
         ]
     },
     "archaryImages": {
-       "Rifal":[ {
-            "image": "https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80",
+       "Rifal":[
+         {
+            "image": "https://content.jdmagicbox.com/comp/allahabad/b1/0532px532.x532.191109154521.a8b1/catalogue/prayag-rifle-and-pistol-shooting-academy-phaphamau-allahabad-rifle-shooting-training-centers-lhcvqgybs2-250.jpg",
             "name": "cheran"
         },
         {
-            "image": "https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrHAixsj1aAXN9Xo0GcGKXXBllklNgUI64HMVad-8XlSw0Mku-k9aS2Miimkl-5p2ESuXnl_HFoj0&usqp=CAU&ec=48665701",
+            "name": "cheran"
+        }
+    ],
+       "Pistol":[ 
+        {
+            "image": "https://c8.alamy.com/zooms/9/78bcc8856e844156a01648d4c4de306e/2kfgt2m.jpg",
             "name": "cheran"
         },
         {
-            "image": "https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80",
+            "image": "https://l450v.alamy.com/450v/2kfgt2a/olympic-summer-games-in-los-angeles-usa-1984-ove-gunnarsson-sweden-at-shooting-range-in-shooting-free-pistol-2kfgt2a.jpg",
+            "name": "cheran"
+        }
+    ],
+       "Shotgun":[ 
+        {
+            "image": "https://c8.alamy.com/comp/2GJ0Y52/olympic-game-shooting-clay-pigeon-peeters-in-action-9-september-1960-2GJ0Y52.jpg",
             "name": "cheran"
         },
         {
-            "image": "https://images.unsplash.com/photo-1622052416859-d274b64c31f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8M3x8fGVufDB8fHx8&w=1000&q=80",
+            "image": "https://c8.alamy.com/comp/E10RFJ/oct-10-1973-german-top-skier-trying-their-luck-in-skeet-shooting-aiming-E10RFJ.jpg",
+            "name": "cheran"
+        }
+    ]
+},
+    "equastrainImages": {
+       "Dressage":[
+         {
+            "image": "https://www.eurodressage.com/sites/default/files/styles/max_650x650/public/database-story-thumb/2021-07/64_og_chammartin_woermann_01.jpg?itok=zREbcVWV",
+            "name": "cheran"
+        },
+        {
+            "image": "https://s3-eu-west-1.amazonaws.com/fei-fan-production/s3fs-public/1932-Charles-Pahud.jpg",
+            "name": "cheran"
+        }
+    ],
+       "Eventing":[ 
+        {
+            "image": "https://c8.alamy.com/comp/K14A0W/elena-petouchkova-of-russia-won-the-silver-medal-in-the-1972-olympics-K14A0W.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://s3-eu-west-1.amazonaws.com/fei-fan-production/s3fs-public/1956-eventing-medallists.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://s3-eu-west-1.amazonaws.com/fei-fan-production/s3fs-public/050320-1960-dressage-new.jpg",
+            "name": "cheran"
+        }
+    ],
+       "Show_jumping":[ 
+        {
+            "image": "https://www.shutterstock.com/image-photo/equestrian-sports-horse-jumping-show-260nw-260332910.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://horserookie.com/wp-content/uploads/2020/02/horse-approach-jump-bw.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://media.gettyimages.com/id/1330339992/photo/horse-jumping-equestrian-sports-show-jumping-competition-themed-photograph.jpg?s=612x612&w=gi&k=20&c=Ica0dak6D68FGsgevJXBCcPuPmYPQ-0vL8DKIHeZcMU=",
+            "name": "cheran"
+        }
+    ]
+},
+    "extremeImages": {
+       "Day_Hiking":[
+         {
+            "image": "https://media.istockphoto.com/id/933268866/vector/hot-hike-desert-hills.jpg?s=1024x1024&w=is&k=20&c=ZpJIxZV_3_SvXBBSC2nPQ2DX-GihQBCPrL7lRrW99xY=",
+            "name": "cheran"
+        },
+        {
+            "image": "https://media.istockphoto.com/id/665235328/vector/hiking-group-adventure.jpg?s=612x612&w=is&k=20&c=YNlpDIncXU0kWZpjbo3PINERQ2BY70E_UMa0exPVAM8=",
+            "name": "cheran"
+        }
+    ],
+       "Summit_Hiking":[ 
+        {
+            "image": "https://previews.123rf.com/images/furtaev/furtaev1809/furtaev180900092/107540449-black-and-white-portrait-of-young-female-hiker-with-trekking-poles-standing-on-top-of-mountain-and.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://previews.123rf.com/images/furtaev/furtaev1809/furtaev180900092/107540449-black-and-white-portrait-of-young-female-hiker-with-trekking-poles-standing-on-top-of-mountain-and.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://previews.123rf.com/images/furtaev/furtaev1809/furtaev180900092/107540449-black-and-white-portrait-of-young-female-hiker-with-trekking-poles-standing-on-top-of-mountain-and.jpg",
+            "name": "cheran"
+        }
+    ],
+       "Long_Distance_Hiking":[ 
+        {
+            "image": "https://c8.alamy.com/comp/KC45E5/discovering-magical-views-of-tuscany-healthy-woman-hiker-with-bag-KC45E5.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://c8.alamy.com/comp/KC45E5/discovering-magical-views-of-tuscany-healthy-woman-hiker-with-bag-KC45E5.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://c8.alamy.com/comp/KC45FC/discovering-magical-views-of-tuscany-happy-healthy-woman-hiker-with-KC45FC.jpg",
+            "name": "cheran"
+        }
+    ]
+},
+    "golfImages": {
+       "Match_Play":[
+         {
+            "image": "https://c8.alamy.com/comp/G9KDGH/golf-news-of-the-world-matchplay-championship-G9KDGH.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://c8.alamy.com/comp/G9KDGH/golf-news-of-the-world-matchplay-championship-G9KDGH.jpg",
+            "name": "cheran"
+        }
+    ],
+       "Stroke_Play":[ 
+        {
+            "image": "https://c8.alamy.com/comp/2KF25YF/1960s-1970s-golfer-crouched-over-ball-with-putter-on-green-putting-for-hole-g7356-har001-hars-golfers-leisure-low-angle-recreation-direction-stroke-addressing-links-stylish-concentrate-crouched-focused-intense-position-putt-putter-young-adult-man-black-and-white-caucasian-ethnicity-concentrating-concentration-crouching-golf-course-har001-intent-old-fashioned-par-stance-2KF25YF.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://media.gettyimages.com/id/53329636/photo/man-golfing.jpg?s=612x612&w=gi&k=20&c=1kXtl2oeZV9E6iaKALtAm4NuDJ9DC48lRSNUghLnYK4=",
+            "name": "cheran"
+        },
+        {
+            "image": "https://media.gettyimages.com/id/YSP_008/photo/man-making-golf-shot-while-caddie-stands-holding-flag.jpg?s=612x612&w=gi&k=20&c=2eP6y7qSL-XtOX7veWq9EYLcTEzwHLOx8jAiSA7vZto=",
+            "name": "cheran"
+        }
+    ]
+},
+    "gymImages": {
+       "Biceps_Workout":[
+         {
+            "image": "https://previews.123rf.com/images/improvisor/improvisor1506/improvisor150600096/41423192-closeup-portrait-of-a-muscular-man-workout-with-barbell-at-gym-brutal-bodybuilder-athletic-man-with.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://www.mensjournal.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk2MTM2MTYyOTUwOTgwNzUz/1280-bicep-dumbbell-curl.jpg",
+            "name": "cheran"
+        }
+    ],
+       "Chest_Workout":[ 
+        {
+            "image": "https://www.mensjournal.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk2MTM2MTYyOTUwOTgwNzUz/1280-bicep-dumbbell-curl.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuPoDjheVMMogtfvz8qfFEGAqTHpvNw8yhxLScaxwi1w&usqp=CAU&ec=48665702",
+            "name": "cheran"
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuPoDjheVMMogtfvz8qfFEGAqTHpvNw8yhxLScaxwi1w&usqp=CAU&ec=48665701",
+            "name": "cheran"
+        }
+    ],
+       "Legs_Workout":[ 
+        {
+            "image": "https://c8.alamy.com/comp/JCC8G6/healthy-fitness-man-working-out-legs-with-barbell-in-a-gym-squat-exercise-JCC8G6.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://static3.bigstockphoto.com/4/1/2/large1500/214466188.jpg",
+            "name": "cheran"
+        },
+        {
+            "image": "https://www.themuscleprogram.com/wp-content/uploads/2017/05/IMG_5028-e1495119573886.jpg",
             "name": "cheran"
         }
     ]
